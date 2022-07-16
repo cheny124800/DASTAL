@@ -23,4 +23,4 @@ We propose a diversity-aware semantic transformation active learning, or DAST-AL
 
 
 ## Acknowledgements
-This code is partly based on the open-source implementations from [ISDA](https://github.com/facebookresearch/DomainBed) and [Agreement-Discrepancy-Selection](https://github.com/fumengying19/AAAI21-ADS).
+This code is partly based on the open-source implementations from [ISDA](https://github.com/blackfeather-wang/ISDA-for-Deep-Networks) and [Agreement-Discrepancy-Selection](https://github.com/fumengying19/AAAI21-ADS).
