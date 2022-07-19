@@ -1,0 +1,160 @@
+Resnet 18
+Ran
+
+2021-10-24 08:54:11,564-[Ran]: Trail 1: [70.63 81.3  85.79 87.66 89.6  90.75 91.19 91.95 92.49 92.69]
+2021-10-24 08:54:11,564-[Ran]: Trail 2: [67.51 80.53 85.82 87.79 89.07 90.51 91.03 92.08 92.08 92.2 ]
+2021-10-24 08:54:11,565-[Ran]: Trail 3: [64.79 79.12 85.14 87.55 89.5  90.54 91.61 91.83 92.5  93.1 ]
+2021-10-24 08:54:11,565-[Ran]: Trail 4: [69.4  80.39 85.24 87.08 89.   90.29 91.17 91.57 92.04 92.26]
+2021-10-24 08:54:11,566-[Ran]: Trail 5: [65.53 80.15 85.52 87.48 89.43 90.39 91.12 91.54 92.16 92.36]
+2021-10-24 08:54:11,566-[Ran]: Trail 6: [69.57 80.05 84.94 87.13 89.23 89.88 91.03 91.68 92.04 92.41]
+2021-10-24 08:54:11,567-[Ran]: Trail 7: [66.25 79.37 84.73 87.43 88.98 90.32 91.28 91.87 92.07 92.72]
+2021-10-24 08:54:11,568-[Ran]: Trail 8: [71.4  81.56 85.79 87.55 89.32 90.49 91.5  91.81 92.19 92.7 ]
+2021-10-24 08:54:11,568-[Ran]: Trail 9: [65.69 79.87 84.82 87.1  88.94 90.17 91.23 91.52 92.33 92.93]
+2021-10-24 08:54:11,568-[Ran]: Trail 10: [67.81 79.96 85.21 87.28 89.27 90.13 91.19 91.44 92.15 92.49]
+
+MAxp
+2021-10-22 03:14:52,797-[Maxp]: Trial 2/10 || Cycle 1/10 || Label set size 2500: lambda_0: 0.0 Selecting metric: Maxp Test acc 68.64
+2021-10-22 03:49:06,439-[Maxp]: Trial 2/10 || Cycle 2/10 || Label set size 5000: lambda_0: 0.0 Selecting metric: Maxp Test acc 76.5
+2021-10-22 04:34:12,706-[Maxp]: Trial 2/10 || Cycle 3/10 || Label set size 7500: lambda_0: 0.0 Selecting metric: Maxp Test acc 80.22
+2021-10-22 05:30:16,978-[Maxp]: Trial 2/10 || Cycle 4/10 || Label set size 10000: lambda_0: 0.0 Selecting metric: Maxp Test acc 82.07
+2021-10-22 06:37:03,167-[Maxp]: Trial 2/10 || Cycle 5/10 || Label set size 12500: lambda_0: 0.0 Selecting metric: Maxp Test acc 83.34
+2021-10-22 07:54:36,419-[Maxp]: Trial 2/10 || Cycle 6/10 || Label set size 15000: lambda_0: 0.0 Selecting metric: Maxp Test acc 84.01
+2021-10-22 09:22:56,011-[Maxp]: Trial 2/10 || Cycle 7/10 || Label set size 17500: lambda_0: 0.0 Selecting metric: Maxp Test acc 84.88
+2021-10-22 11:02:24,001-[Maxp]: Trial 2/10 || Cycle 8/10 || Label set size 20000: lambda_0: 0.0 Selecting metric: Maxp Test acc 85.73
+2021-10-22 12:52:32,476-[Maxp]: Trial 2/10 || Cycle 9/10 || Label set size 22500: lambda_0: 0.0 Selecting metric: Maxp Test acc 86.29
+2021-10-22 14:53:45,136-[Maxp]: Trial 2/10 || Cycle 10/10 || Label set size 25000: lambda_0: 0.0 Selecting metric: Maxp Test acc 87.23
+2021-10-22 15:18:16,298-[Maxp]: Trial 3/10 || Cycle 1/10 || Label set size 2500: lambda_0: 0.0 Selecting metric: Maxp Test acc 70.27
+2021-10-22 15:52:35,505-[Maxp]: Trial 3/10 || Cycle 2/10 || Label set size 5000: lambda_0: 0.0 Selecting metric: Maxp Test acc 76.24
+2021-10-22 16:38:05,021-[Maxp]: Trial 3/10 || Cycle 3/10 || Label set size 7500: lambda_0: 0.0 Selecting metric: Maxp Test acc 79.54
+2021-10-22 17:34:57,758-[Maxp]: Trial 3/10 || Cycle 4/10 || Label set size 10000: lambda_0: 0.0 Selecting metric: Maxp Test acc 80.72
+2021-10-22 18:42:05,709-[Maxp]: Trial 3/10 || Cycle 5/10 || Label set size 12500: lambda_0: 0.0 Selecting metric: Maxp Test acc 82.34
+2021-10-22 20:00:12,081-[Maxp]: Trial 3/10 || Cycle 6/10 || Label set size 15000: lambda_0: 0.0 Selecting metric: Maxp Test acc 82.91
+2021-10-22 21:29:07,105-[Maxp]: Trial 3/10 || Cycle 7/10 || Label set size 17500: lambda_0: 0.0 Selecting metric: Maxp Test acc 84.33
+2021-10-22 23:08:42,032-[Maxp]: Trial 3/10 || Cycle 8/10 || Label set size 20000: lambda_0: 0.0 Selecting metric: Maxp Test acc 84.94
+2021-10-23 00:59:07,045-[Maxp]: Trial 3/10 || Cycle 9/10 || Label set size 22500: lambda_0: 0.0 Selecting metric: Maxp Test acc 85.57
+2021-10-23 03:00:25,769-[Maxp]: Trial 3/10 || Cycle 10/10 || Label set size 25000: lambda_0: 0.0 Selecting metric: Maxp Test acc 86.52
+2021-10-23 03:24:29,821-[Maxp]: Trial 4/10 || Cycle 1/10 || Label set size 2500: lambda_0: 0.0 Selecting metric: Maxp Test acc 70.48
+2021-10-23 03:58:46,307-[Maxp]: Trial 4/10 || Cycle 2/10 || Label set size 5000: lambda_0: 0.0 Selecting metric: Maxp Test acc 78.12
+2021-10-23 04:43:58,129-[Maxp]: Trial 4/10 || Cycle 3/10 || Label set size 7500: lambda_0: 0.0 Selecting metric: Maxp Test acc 80.62
+2021-10-23 05:39:58,549-[Maxp]: Trial 4/10 || Cycle 4/10 || Label set size 10000: lambda_0: 0.0 Selecting metric: Maxp Test acc 81.62
+2021-10-23 06:46:54,925-[Maxp]: Trial 4/10 || Cycle 5/10 || Label set size 12500: lambda_0: 0.0 Selecting metric: Maxp Test acc 82.6
+2021-10-23 08:04:32,933-[Maxp]: Trial 4/10 || Cycle 6/10 || Label set size 15000: lambda_0: 0.0 Selecting metric: Maxp Test acc 83.51
+2021-10-23 09:33:20,269-[Maxp]: Trial 4/10 || Cycle 7/10 || Label set size 17500: lambda_0: 0.0 Selecting metric: Maxp Test acc 83.77
+2021-10-23 11:12:44,164-[Maxp]: Trial 4/10 || Cycle 8/10 || Label set size 20000: lambda_0: 0.0 Selecting metric: Maxp Test acc 84.58
+2021-10-23 13:03:04,245-[Maxp]: Trial 4/10 || Cycle 9/10 || Label set size 22500: lambda_0: 0.0 Selecting metric: Maxp Test acc 85.36
+2021-10-23 15:04:02,135-[Maxp]: Trial 4/10 || Cycle 10/10 || Label set size 25000: lambda_0: 0.0 Selecting metric: Maxp Test acc 86.28
+
+
+Ent
+2021-10-22 06:44:38,911-[Ent]: Trial 3/10 || Cycle 1/10 || Label set size 2500: lambda_0: 0.0 Selecting metric: Ent Test acc 68.42
+2021-10-22 07:02:55,601-[Ent]: Trial 3/10 || Cycle 2/10 || Label set size 5000: lambda_0: 0.0 Selecting metric: Ent Test acc 83.53
+2021-10-22 07:25:09,186-[Ent]: Trial 3/10 || Cycle 3/10 || Label set size 7500: lambda_0: 0.0 Selecting metric: Ent Test acc 87.9
+2021-10-22 07:51:27,038-[Ent]: Trial 3/10 || Cycle 4/10 || Label set size 10000: lambda_0: 0.0 Selecting metric: Ent Test acc 90.13
+2021-10-22 08:21:37,096-[Ent]: Trial 3/10 || Cycle 5/10 || Label set size 12500: lambda_0: 0.0 Selecting metric: Ent Test acc 91.95
+2021-10-22 08:55:56,768-[Ent]: Trial 3/10 || Cycle 6/10 || Label set size 15000: lambda_0: 0.0 Selecting metric: Ent Test acc 93.11
+2021-10-22 09:34:10,753-[Ent]: Trial 3/10 || Cycle 7/10 || Label set size 17500: lambda_0: 0.0 Selecting metric: Ent Test acc 94.08
+2021-10-22 10:32:13,262-[Ent]: Trial 3/10 || Cycle 8/10 || Label set size 20000: lambda_0: 0.0 Selecting metric: Ent Test acc 94.28
+2021-10-22 11:54:19,718-[Ent]: Trial 3/10 || Cycle 9/10 || Label set size 22500: lambda_0: 0.0 Selecting metric: Ent Test acc 94.28
+2021-10-22 13:24:24,910-[Ent]: Trial 3/10 || Cycle 10/10 || Label set size 25000: lambda_0: 0.0 Selecting metric: Ent Test acc 94.9
+2021-10-22 13:47:42,285-[Ent]: Trial 4/10 || Cycle 1/10 || Label set size 2500: lambda_0: 0.0 Selecting metric: Ent Test acc 72.48
+2021-10-22 14:18:28,847-[Ent]: Trial 4/10 || Cycle 2/10 || Label set size 5000: lambda_0: 0.0 Selecting metric: Ent Test acc 83.33
+2021-10-22 14:56:36,533-[Ent]: Trial 4/10 || Cycle 3/10 || Label set size 7500: lambda_0: 0.0 Selecting metric: Ent Test acc 87.62
+2021-10-22 15:42:17,753-[Ent]: Trial 4/10 || Cycle 4/10 || Label set size 10000: lambda_0: 0.0 Selecting metric: Ent Test acc 90.24
+2021-10-22 16:35:37,770-[Ent]: Trial 4/10 || Cycle 5/10 || Label set size 12500: lambda_0: 0.0 Selecting metric: Ent Test acc 92.15
+2021-10-22 17:36:34,139-[Ent]: Trial 4/10 || Cycle 6/10 || Label set size 15000: lambda_0: 0.0 Selecting metric: Ent Test acc 92.85
+2021-10-22 18:44:30,744-[Ent]: Trial 4/10 || Cycle 7/10 || Label set size 17500: lambda_0: 0.0 Selecting metric: Ent Test acc 93.69
+2021-10-22 19:59:56,573-[Ent]: Trial 4/10 || Cycle 8/10 || Label set size 20000: lambda_0: 0.0 Selecting metric: Ent Test acc 94.1
+2021-10-22 21:22:27,222-[Ent]: Trial 4/10 || Cycle 9/10 || Label set size 22500: lambda_0: 0.0 Selecting metric: Ent Test acc 94.38
+2021-10-22 22:51:55,559-[Ent]: Trial 4/10 || Cycle 10/10 || Label set size 25000: lambda_0: 0.0 Selecting metric: Ent Test acc 94.54
+
+
+
+Ran+
+2021-10-21 15:15:52,338-[Ran]: Trial 1/10 || Cycle 1/10 || Label set size 2500: lambda_0: 1.0 Selecting metric: Ran Test acc 69.41
+2021-10-21 15:50:20,255-[Ran]: Trial 1/10 || Cycle 2/10 || Label set size 5000: lambda_0: 1.0 Selecting metric: Ran Test acc 80.64
+2021-10-21 16:35:45,562-[Ran]: Trial 1/10 || Cycle 3/10 || Label set size 7500: lambda_0: 1.0 Selecting metric: Ran Test acc 85.8
+2021-10-21 17:31:58,694-[Ran]: Trial 1/10 || Cycle 4/10 || Label set size 10000: lambda_0: 1.0 Selecting metric: Ran Test acc 88.33
+2021-10-21 18:39:06,148-[Ran]: Trial 1/10 || Cycle 5/10 || Label set size 12500: lambda_0: 1.0 Selecting metric: Ran Test acc 89.4
+2021-10-21 19:56:48,214-[Ran]: Trial 1/10 || Cycle 6/10 || Label set size 15000: lambda_0: 1.0 Selecting metric: Ran Test acc 90.59
+2021-10-21 21:25:29,461-[Ran]: Trial 1/10 || Cycle 7/10 || Label set size 17500: lambda_0: 1.0 Selecting metric: Ran Test acc 91.03
+2021-10-21 23:04:50,323-[Ran]: Trial 1/10 || Cycle 8/10 || Label set size 20000: lambda_0: 1.0 Selecting metric: Ran Test acc 91.94
+2021-10-22 00:54:50,412-[Ran]: Trial 1/10 || Cycle 9/10 || Label set size 22500: lambda_0: 1.0 Selecting metric: Ran Test acc 92.14
+2021-10-22 02:55:16,720-[Ran]: Trial 1/10 || Cycle 10/10 || Label set size 25000: lambda_0: 1.0 Selecting metric: Ran Test acc 92.83
+
+2021-10-22 03:18:52,527-[Ran]: Trial 2/10 || Cycle 1/10 || Label set size 2500: lambda_0: 1.0 Selecting metric: Ran Test acc 70.83
+2021-10-22 03:53:19,740-[Ran]: Trial 2/10 || Cycle 2/10 || Label set size 5000: lambda_0: 1.0 Selecting metric: Ran Test acc 80.88
+2021-10-22 04:38:32,095-[Ran]: Trial 2/10 || Cycle 3/10 || Label set size 7500: lambda_0: 1.0 Selecting metric: Ran Test acc 85.38
+2021-10-22 05:34:30,781-[Ran]: Trial 2/10 || Cycle 4/10 || Label set size 10000: lambda_0: 1.0 Selecting metric: Ran Test acc 87.31
+2021-10-22 06:41:20,653-[Ran]: Trial 2/10 || Cycle 5/10 || Label set size 12500: lambda_0: 1.0 Selecting metric: Ran Test acc 89.2
+2021-10-22 07:59:10,159-[Ran]: Trial 2/10 || Cycle 6/10 || Label set size 15000: lambda_0: 1.0 Selecting metric: Ran Test acc 90.74
+2021-10-22 09:27:50,698-[Ran]: Trial 2/10 || Cycle 7/10 || Label set size 17500: lambda_0: 1.0 Selecting metric: Ran Test acc 91.27
+2021-10-22 11:07:21,962-[Ran]: Trial 2/10 || Cycle 8/10 || Label set size 20000: lambda_0: 1.0 Selecting metric: Ran Test acc 92.04
+2021-10-22 12:57:31,274-[Ran]: Trial 2/10 || Cycle 9/10 || Label set size 22500: lambda_0: 1.0 Selecting metric: Ran Test acc 92.49
+2021-10-22 14:58:19,265-[Ran]: Trial 2/10 || Cycle 10/10 || Label set size 25000: lambda_0: 1.0 Selecting metric: Ran Test acc 92.74
+
+
+Maxp+
+
+
+2021-10-23 03:26:10,248-[Maxp]: Trial 4/10 || Cycle 1/10 || Label set size 2500: lambda_0: 1.0 Selecting metric: Maxp Test acc 67.74
+2021-10-23 04:00:31,674-[Maxp]: Trial 4/10 || Cycle 2/10 || Label set size 5000: lambda_0: 1.0 Selecting metric: Maxp Test acc 75.81
+2021-10-23 04:45:33,953-[Maxp]: Trial 4/10 || Cycle 3/10 || Label set size 7500: lambda_0: 1.0 Selecting metric: Maxp Test acc 79.43
+2021-10-23 05:41:34,990-[Maxp]: Trial 4/10 || Cycle 4/10 || Label set size 10000: lambda_0: 1.0 Selecting metric: Maxp Test acc 81.27
+2021-10-23 06:48:16,446-[Maxp]: Trial 4/10 || Cycle 5/10 || Label set size 12500: lambda_0: 1.0 Selecting metric: Maxp Test acc 82.54
+2021-10-23 08:06:05,827-[Maxp]: Trial 4/10 || Cycle 6/10 || Label set size 15000: lambda_0: 1.0 Selecting metric: Maxp Test acc 82.95
+2021-10-23 09:34:25,925-[Maxp]: Trial 4/10 || Cycle 7/10 || Label set size 17500: lambda_0: 1.0 Selecting metric: Maxp Test acc 83.9
+2021-10-23 11:13:47,885-[Maxp]: Trial 4/10 || Cycle 8/10 || Label set size 20000: lambda_0: 1.0 Selecting metric: Maxp Test acc 84.81
+2021-10-23 13:03:50,617-[Maxp]: Trial 4/10 || Cycle 9/10 || Label set size 22500: lambda_0: 1.0 Selecting metric: Maxp Test acc 85.78
+2021-10-23 15:04:58,554-[Maxp]: Trial 4/10 || Cycle 10/10 || Label set size 25000: lambda_0: 1.0 Selecting metric: Maxp Test acc 86.62
+2021-10-23 15:28:32,757-[Maxp]: Trial 5/10 || Cycle 1/10 || Label set size 2500: lambda_0: 1.0 Selecting metric: Maxp Test acc 69.28
+2021-10-23 16:02:51,669-[Maxp]: Trial 5/10 || Cycle 2/10 || Label set size 5000: lambda_0: 1.0 Selecting metric: Maxp Test acc 76.9
+2021-10-23 16:48:04,892-[Maxp]: Trial 5/10 || Cycle 3/10 || Label set size 7500: lambda_0: 1.0 Selecting metric: Maxp Test acc 80.83
+2021-10-23 17:44:05,023-[Maxp]: Trial 5/10 || Cycle 4/10 || Label set size 10000: lambda_0: 1.0 Selecting metric: Maxp Test acc 82.17
+2021-10-23 18:51:00,417-[Maxp]: Trial 5/10 || Cycle 5/10 || Label set size 12500: lambda_0: 1.0 Selecting metric: Maxp Test acc 83.16
+2021-10-23 20:08:52,187-[Maxp]: Trial 5/10 || Cycle 6/10 || Label set size 15000: lambda_0: 1.0 Selecting metric: Maxp Test acc 83.54
+2021-10-23 21:37:35,712-[Maxp]: Trial 5/10 || Cycle 7/10 || Label set size 17500: lambda_0: 1.0 Selecting metric: Maxp Test acc 84.11
+2021-10-23 23:17:03,067-[Maxp]: Trial 5/10 || Cycle 8/10 || Label set size 20000: lambda_0: 1.0 Selecting metric: Maxp Test acc 84.97
+2021-10-24 00:39:32,830-[Maxp]: Trial 5/10 || Cycle 9/10 || Label set size 22500: lambda_0: 1.0 Selecting metric: Maxp Test acc 85.75
+2021-10-24 02:10:10,153-[Maxp]: Trial 5/10 || Cycle 10/10 || Label set size 25000: lambda_0: 1.0 Selecting metric: Maxp Test acc 86.42
+
+
+Ent+
+2021-10-21 15:13:10,490-[Ent]: Trial 1/10 || Cycle 1/10 || Label set size 2500: lambda_0: 1.0 Selecting metric: Ent Test acc 70.81
+2021-10-21 15:47:27,049-[Ent]: Trial 1/10 || Cycle 2/10 || Label set size 5000: lambda_0: 1.0 Selecting metric: Ent Test acc 83.43
+2021-10-21 16:32:39,215-[Ent]: Trial 1/10 || Cycle 3/10 || Label set size 7500: lambda_0: 1.0 Selecting metric: Ent Test acc 88.15
+2021-10-21 17:28:31,677-[Ent]: Trial 1/10 || Cycle 4/10 || Label set size 10000: lambda_0: 1.0 Selecting metric: Ent Test acc 90.8
+2021-10-21 18:35:24,654-[Ent]: Trial 1/10 || Cycle 5/10 || Label set size 12500: lambda_0: 1.0 Selecting metric: Ent Test acc 92.18
+2021-10-21 19:53:11,059-[Ent]: Trial 1/10 || Cycle 6/10 || Label set size 15000: lambda_0: 1.0 Selecting metric: Ent Test acc 92.96
+2021-10-21 21:21:40,704-[Ent]: Trial 1/10 || Cycle 7/10 || Label set size 17500: lambda_0: 1.0 Selecting metric: Ent Test acc 93.74
+2021-10-21 23:01:13,961-[Ent]: Trial 1/10 || Cycle 8/10 || Label set size 20000: lambda_0: 1.0 Selecting metric: Ent Test acc 93.94
+2021-10-22 00:51:28,664-[Ent]: Trial 1/10 || Cycle 9/10 || Label set size 22500: lambda_0: 1.0 Selecting metric: Ent Test acc 94.3
+2021-10-22 02:52:33,547-[Ent]: Trial 1/10 || Cycle 10/10 || Label set size 25000: lambda_0: 1.0 Selecting metric: Ent Test acc 94.54
+2021-10-22 03:16:28,825-[Ent]: Trial 2/10 || Cycle 1/10 || Label set size 2500: lambda_0: 1.0 Selecting metric: Ent Test acc 56.07
+2021-10-22 03:50:45,242-[Ent]: Trial 2/10 || Cycle 2/10 || Label set size 5000: lambda_0: 1.0 Selecting metric: Ent Test acc 77.55
+2021-10-22 04:35:50,430-[Ent]: Trial 2/10 || Cycle 3/10 || Label set size 7500: lambda_0: 1.0 Selecting metric: Ent Test acc 84.7
+2021-10-22 05:31:42,211-[Ent]: Trial 2/10 || Cycle 4/10 || Label set size 10000: lambda_0: 1.0 Selecting metric: Ent Test acc 88.49
+2021-10-22 06:38:36,222-[Ent]: Trial 2/10 || Cycle 5/10 || Label set size 12500: lambda_0: 1.0 Selecting metric: Ent Test acc 90.85
+2021-10-22 07:56:22,067-[Ent]: Trial 2/10 || Cycle 6/10 || Label set size 15000: lambda_0: 1.0 Selecting metric: Ent Test acc 91.87
+2021-10-22 09:25:02,264-[Ent]: Trial 2/10 || Cycle 7/10 || Label set size 17500: lambda_0: 1.0 Selecting metric: Ent Test acc 92.92
+2021-10-22 11:04:39,051-[Ent]: Trial 2/10 || Cycle 8/10 || Label set size 20000: lambda_0: 1.0 Selecting metric: Ent Test acc 93.39
+2021-10-22 12:55:08,091-[Ent]: Trial 2/10 || Cycle 9/10 || Label set size 22500: lambda_0: 1.0 Selecting metric: Ent Test acc 93.57
+2021-10-22 14:56:16,081-[Ent]: Trial 2/10 || Cycle 10/10 || Label set size 25000: lambda_0: 1.0 Selecting metric: Ent Test acc 93.98
+2021-10-22 15:19:59,740-[Ent]: Trial 3/10 || Cycle 1/10 || Label set size 2500: lambda_0: 1.0 Selecting metric: Ent Test acc 71.05
+2021-10-22 15:54:12,605-[Ent]: Trial 3/10 || Cycle 2/10 || Label set size 5000: lambda_0: 1.0 Selecting metric: Ent Test acc 83.4
+2021-10-22 16:39:48,854-[Ent]: Trial 3/10 || Cycle 3/10 || Label set size 7500: lambda_0: 1.0 Selecting metric: Ent Test acc 88.25
+2021-10-22 17:36:41,255-[Ent]: Trial 3/10 || Cycle 4/10 || Label set size 10000: lambda_0: 1.0 Selecting metric: Ent Test acc 90.17
+2021-10-22 18:43:39,165-[Ent]: Trial 3/10 || Cycle 5/10 || Label set size 12500: lambda_0: 1.0 Selecting metric: Ent Test acc 91.77
+2021-10-22 20:01:29,693-[Ent]: Trial 3/10 || Cycle 6/10 || Label set size 15000: lambda_0: 1.0 Selecting metric: Ent Test acc 93.16
+2021-10-22 21:30:16,625-[Ent]: Trial 3/10 || Cycle 7/10 || Label set size 17500: lambda_0: 1.0 Selecting metric: Ent Test acc 93.57
+2021-10-22 23:10:08,858-[Ent]: Trial 3/10 || Cycle 8/10 || Label set size 20000: lambda_0: 1.0 Selecting metric: Ent Test acc 93.8
+2021-10-23 01:00:32,320-[Ent]: Trial 3/10 || Cycle 9/10 || Label set size 22500: lambda_0: 1.0 Selecting metric: Ent Test acc 94.28
+2021-10-23 03:01:42,310-[Ent]: Trial 3/10 || Cycle 10/10 || Label set size 25000: lambda_0: 1.0 Selecting metric: Ent Test acc 94.4
+
+ISDAL+
+2021-10-24 13:45:16,014-[ISDAL]: Trail 2: [71.15 83.55 88.35 90.52 92.18 92.9  93.63 94.3  94.66 94.66]
+2021-10-24 13:45:16,015-[ISDAL]: Trail 3: [70.73 83.71 87.71 90.87 92.22 93.21 93.93 94.05 94.74 94.74]
+2021-10-24 13:45:16,016-[ISDAL]: Trail 4: [69.94 82.98 87.94 90.83 92.37 93.08 94.03 94.14 94.3  94.59]
+2021-10-24 13:45:16,017-[ISDAL]: Trail 5: [68.73 82.36 87.51 90.22 91.84 92.87 93.37 93.84 93.94 94.46]
+2021-10-24 13:45:16,018-[ISDAL]: Trail 6: [67.11 82.21 87.74 89.65 91.67 92.98 93.56 94.05 94.48 94.48]
+2021-10-24 13:45:16,019-[ISDAL]: Trail 7: [68.19 83.23 87.83 90.22 91.91 93.14 93.97 93.97 94.39 94.7 ]
+2021-10-24 13:45:16,019-[ISDAL]: Trail 8: [69.03 82.87 87.81 90.69 92.49 93.24 93.57 94.02 94.38 94.53]

@@ -1,0 +1,165 @@
+2022-07-16 19:42:31,700-[ISDAL]: Checkpoint Path: output/0716194231
+2022-07-16 19:42:31,700-[ISDAL]: Dataset : cifar100
+2022-07-16 19:42:31,700-[ISDAL]: Model : Vgg16
+2022-07-16 19:42:31,700-[ISDAL]: ISDA lambda_0 : 5.0
+2022-07-16 19:42:31,700-[ISDAL]: Visdom Port: 9000
+2022-07-16 19:42:31,700-[ISDAL]: CONFIG -- DATASET - NUM_TRAIN: 50000
+2022-07-16 19:42:31,701-[ISDAL]: CONFIG -- DATASET - NUM_VAL: 0
+2022-07-16 19:42:31,701-[ISDAL]: CONFIG -- DATASET - ROOT: {'cifar10': './data/cifar-10', 'cifar100': './data/cifar-100'}
+2022-07-16 19:42:31,701-[ISDAL]: CONFIG -- ACTIVE_LEARNING - TRIALS: 10
+2022-07-16 19:42:31,701-[ISDAL]: CONFIG -- ACTIVE_LEARNING - CYCLES: 10
+2022-07-16 19:42:31,701-[ISDAL]: CONFIG -- ACTIVE_LEARNING - ADDENDUM: 2500
+2022-07-16 19:42:31,701-[ISDAL]: CONFIG -- ACTIVE_LEARNING - SUBSET: 10000
+2022-07-16 19:42:31,701-[ISDAL]: CONFIG -- TRAIN - BATCH: 128
+2022-07-16 19:42:31,701-[ISDAL]: CONFIG -- TRAIN - EPOCH: 200
+2022-07-16 19:42:31,701-[ISDAL]: CONFIG -- TRAIN - LR: 0.1
+2022-07-16 19:42:31,701-[ISDAL]: CONFIG -- TRAIN - MILESTONES: [120, 160]
+2022-07-16 19:42:31,701-[ISDAL]: CONFIG -- TRAIN - EPOCHL: 1
+2022-07-16 19:42:31,701-[ISDAL]: CONFIG -- TRAIN - MOMENTUM: 0.9
+2022-07-16 19:42:31,701-[ISDAL]: CONFIG -- TRAIN - WDECAY: 0.0005
+2022-07-16 19:42:31,701-[ISDAL]: CONFIG -- TRAIN - MIN_CLBR: 0.1
+2022-07-16 19:42:31,701-[ISDAL]: CONFIG -- TRAIN - MAX_CLBR: 0.1
+2022-07-16 19:42:31,701-[ISDAL]: CONFIG -- LEARNING_LOSS - MARGIN: 1.0
+2022-07-16 19:42:31,701-[ISDAL]: CONFIG -- LEARNING_LOSS - WEIGHT: 1.0
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+2022-07-16 19:42:39,346-[ISDAL]: >> Train a Model.
+2022-07-16 19:57:10,164-[ISDAL]: >> Finished.
+2022-07-16 19:57:10,248-[ISDAL]: Start Test
+acc: 32.2
+2022-07-16 19:57:10,248-[ISDAL]: End Test
+2022-07-16 19:57:10,248-[ISDAL]: Trial 1/10 || Cycle 1/10 || Label set size 5000: lambda_0: 5.0 Selecting metric: ISDAL Test acc 32.2
+Selecting data
+2022-07-16 19:57:18,312-[ISDAL]: >> Train a Model.
+2022-07-16 20:18:45,496-[ISDAL]: >> Finished.
+2022-07-16 20:18:45,584-[ISDAL]: Start Test
+acc: 49.4
+2022-07-16 20:18:45,584-[ISDAL]: End Test
+2022-07-16 20:18:45,584-[ISDAL]: Trial 1/10 || Cycle 2/10 || Label set size 7500: lambda_0: 5.0 Selecting metric: ISDAL Test acc 49.4
+Selecting data
+2022-07-16 20:18:53,689-[ISDAL]: >> Train a Model.
+2022-07-16 20:52:13,687-[ISDAL]: >> Finished.
+2022-07-16 20:52:13,790-[ISDAL]: Start Test
+acc: 54.99
+2022-07-16 20:52:13,791-[ISDAL]: End Test
+2022-07-16 20:52:13,791-[ISDAL]: Trial 1/10 || Cycle 3/10 || Label set size 10000: lambda_0: 5.0 Selecting metric: ISDAL Test acc 54.99
+Selecting data
+2022-07-16 20:52:23,413-[ISDAL]: >> Train a Model.
+2022-07-16 21:35:08,418-[ISDAL]: >> Finished.
+2022-07-16 21:35:08,505-[ISDAL]: Start Test
+acc: 57.76
+2022-07-16 21:35:08,505-[ISDAL]: End Test
+2022-07-16 21:35:08,505-[ISDAL]: Trial 1/10 || Cycle 4/10 || Label set size 12500: lambda_0: 5.0 Selecting metric: ISDAL Test acc 57.76
+Selecting data
+2022-07-16 21:35:17,993-[ISDAL]: >> Train a Model.
+2022-07-16 22:26:05,958-[ISDAL]: >> Finished.
+2022-07-16 22:26:06,040-[ISDAL]: Start Test
+acc: 59.1
+2022-07-16 22:26:06,040-[ISDAL]: End Test
+2022-07-16 22:26:06,040-[ISDAL]: Trial 1/10 || Cycle 5/10 || Label set size 15000: lambda_0: 5.0 Selecting metric: ISDAL Test acc 59.1
+Selecting data
+2022-07-16 22:26:15,274-[ISDAL]: >> Train a Model.
+2022-07-16 23:25:06,625-[ISDAL]: >> Finished.
+2022-07-16 23:25:06,719-[ISDAL]: Start Test
+acc: 60.95
+2022-07-16 23:25:06,719-[ISDAL]: End Test
+2022-07-16 23:25:06,720-[ISDAL]: Trial 1/10 || Cycle 6/10 || Label set size 17500: lambda_0: 5.0 Selecting metric: ISDAL Test acc 60.95
+Selecting data
+2022-07-16 23:25:16,469-[ISDAL]: >> Train a Model.
+2022-07-17 00:37:15,275-[ISDAL]: >> Finished.
+2022-07-17 00:37:15,372-[ISDAL]: Start Test
+acc: 62.94
+2022-07-17 00:37:15,372-[ISDAL]: End Test
+2022-07-17 00:37:15,373-[ISDAL]: Trial 1/10 || Cycle 7/10 || Label set size 20000: lambda_0: 5.0 Selecting metric: ISDAL Test acc 62.94
+Selecting data
+2022-07-17 00:37:26,872-[ISDAL]: >> Train a Model.
+2022-07-17 02:08:37,880-[ISDAL]: >> Finished.
+2022-07-17 02:08:38,001-[ISDAL]: Start Test
+acc: 64.44
+2022-07-17 02:08:38,001-[ISDAL]: End Test
+2022-07-17 02:08:38,001-[ISDAL]: Trial 1/10 || Cycle 8/10 || Label set size 22500: lambda_0: 5.0 Selecting metric: ISDAL Test acc 64.44
+Selecting data
+2022-07-17 02:08:51,086-[ISDAL]: >> Train a Model.
+2022-07-17 04:01:41,345-[ISDAL]: >> Finished.
+2022-07-17 04:01:41,445-[ISDAL]: Start Test
+acc: 66.92
+2022-07-17 04:01:41,445-[ISDAL]: End Test
+2022-07-17 04:01:41,445-[ISDAL]: Trial 1/10 || Cycle 9/10 || Label set size 25000: lambda_0: 5.0 Selecting metric: ISDAL Test acc 66.92
+Selecting data
+2022-07-17 04:01:54,608-[ISDAL]: >> Train a Model.
+2022-07-17 06:05:11,746-[ISDAL]: >> Finished.
+2022-07-17 06:05:11,837-[ISDAL]: Start Test
+acc: 67.23
+2022-07-17 06:05:11,837-[ISDAL]: End Test
+2022-07-17 06:05:11,837-[ISDAL]: Trial 1/10 || Cycle 10/10 || Label set size 27500: lambda_0: 5.0 Selecting metric: ISDAL Test acc 67.23
+Selecting data
+2022-07-17 06:05:24,941-[ISDAL]: >> Train a Model.
+2022-07-17 06:27:26,552-[ISDAL]: >> Finished.
+2022-07-17 06:27:26,648-[ISDAL]: Start Test
+acc: 32.35
+2022-07-17 06:27:26,648-[ISDAL]: End Test
+2022-07-17 06:27:26,649-[ISDAL]: Trial 2/10 || Cycle 1/10 || Label set size 5000: lambda_0: 5.0 Selecting metric: ISDAL Test acc 32.35
+Selecting data
+2022-07-17 06:27:38,926-[ISDAL]: >> Train a Model.
+2022-07-17 06:59:07,595-[ISDAL]: >> Finished.
+2022-07-17 06:59:07,693-[ISDAL]: Start Test
+acc: 50.59
+2022-07-17 06:59:07,693-[ISDAL]: End Test
+2022-07-17 06:59:07,693-[ISDAL]: Trial 2/10 || Cycle 2/10 || Label set size 7500: lambda_0: 5.0 Selecting metric: ISDAL Test acc 50.59
+Selecting data
+2022-07-17 06:59:19,845-[ISDAL]: >> Train a Model.
+2022-07-17 07:40:15,814-[ISDAL]: >> Finished.
+2022-07-17 07:40:15,894-[ISDAL]: Start Test
+acc: 55.58
+2022-07-17 07:40:15,895-[ISDAL]: End Test
+2022-07-17 07:40:15,895-[ISDAL]: Trial 2/10 || Cycle 3/10 || Label set size 10000: lambda_0: 5.0 Selecting metric: ISDAL Test acc 55.58
+Selecting data
+2022-07-17 07:40:27,911-[ISDAL]: >> Train a Model.
+2022-07-17 08:30:54,116-[ISDAL]: >> Finished.
+2022-07-17 08:30:54,206-[ISDAL]: Start Test
+acc: 58.73
+2022-07-17 08:30:54,206-[ISDAL]: End Test
+2022-07-17 08:30:54,206-[ISDAL]: Trial 2/10 || Cycle 4/10 || Label set size 12500: lambda_0: 5.0 Selecting metric: ISDAL Test acc 58.73
+Selecting data
+2022-07-17 08:31:05,768-[ISDAL]: >> Train a Model.
+2022-07-17 09:31:49,333-[ISDAL]: >> Finished.
+2022-07-17 09:31:49,421-[ISDAL]: Start Test
+acc: 60.83
+2022-07-17 09:31:49,422-[ISDAL]: End Test
+2022-07-17 09:31:49,422-[ISDAL]: Trial 2/10 || Cycle 5/10 || Label set size 15000: lambda_0: 5.0 Selecting metric: ISDAL Test acc 60.83
+Selecting data
+2022-07-17 09:32:00,499-[ISDAL]: >> Train a Model.
+2022-07-17 10:41:39,272-[ISDAL]: >> Finished.
+2022-07-17 10:41:39,358-[ISDAL]: Start Test
+acc: 63.8
+2022-07-17 10:41:39,358-[ISDAL]: End Test
+2022-07-17 10:41:39,359-[ISDAL]: Trial 2/10 || Cycle 6/10 || Label set size 17500: lambda_0: 5.0 Selecting metric: ISDAL Test acc 63.8
+Selecting data
+2022-07-17 10:41:50,728-[ISDAL]: >> Train a Model.
+2022-07-17 12:01:17,797-[ISDAL]: >> Finished.
+2022-07-17 12:01:17,901-[ISDAL]: Start Test
+acc: 65.51
+2022-07-17 12:01:17,901-[ISDAL]: End Test
+2022-07-17 12:01:17,901-[ISDAL]: Trial 2/10 || Cycle 7/10 || Label set size 20000: lambda_0: 5.0 Selecting metric: ISDAL Test acc 65.51
+Selecting data
+2022-07-17 12:01:29,478-[ISDAL]: >> Train a Model.
+2022-07-17 13:29:56,947-[ISDAL]: >> Finished.
+2022-07-17 13:29:57,031-[ISDAL]: Start Test
+acc: 66.43
+2022-07-17 13:29:57,031-[ISDAL]: End Test
+2022-07-17 13:29:57,031-[ISDAL]: Trial 2/10 || Cycle 8/10 || Label set size 22500: lambda_0: 5.0 Selecting metric: ISDAL Test acc 66.43
+Selecting data
+2022-07-17 13:30:08,919-[ISDAL]: >> Train a Model.
+2022-07-17 15:11:11,994-[ISDAL]: >> Finished.
+2022-07-17 15:11:12,087-[ISDAL]: Start Test
+acc: 68.99
+2022-07-17 15:11:12,087-[ISDAL]: End Test
+2022-07-17 15:11:12,087-[ISDAL]: Trial 2/10 || Cycle 9/10 || Label set size 25000: lambda_0: 5.0 Selecting metric: ISDAL Test acc 68.99
+Selecting data
+2022-07-17 15:11:24,020-[ISDAL]: >> Train a Model.
+2022-07-17 17:01:08,909-[ISDAL]: >> Finished.
+2022-07-17 17:01:08,997-[ISDAL]: Start Test
+acc: 70.88
+2022-07-17 17:01:08,997-[ISDAL]: End Test
+2022-07-17 17:01:08,997-[ISDAL]: Trial 2/10 || Cycle 10/10 || Label set size 27500: lambda_0: 5.0 Selecting metric: ISDAL Test acc 70.88
