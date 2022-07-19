@@ -56,12 +56,12 @@ parser.add_argument('--model', default='Vgg16', type=str,
                          'Select from resnet{18, 34, 50, 101, 152} / resnext{50_32x4d, 101_32x8d} / '
                          'densenet{121, 169, 201, 265}')
 parser.add_argument('--metric', default='ISDAL', type=str,
-                    help='Ent, Maxp, ISDAL, Ran')
+                    help='Maxp, ISDAL, Ran')
 
 
-#Ent, Maxp, ISDAL, Ran
+#Maxp, ISDAL, Ran
 
-def get_ems(model, unlabeled_loader,criterion_isda,metric="Maxp"): #Ent, Maxp, ISDAL, Ran
+def get_ems(model, unlabeled_loader,criterion_isda,metric="Maxp"): # Maxp, ISDAL, Ran
     model.eval()    
     ems = torch.tensor([]).cuda()    
     with torch.no_grad():
@@ -71,13 +71,6 @@ def get_ems(model, unlabeled_loader,criterion_isda,metric="Maxp"): #Ent, Maxp, I
                 output1= model(inputs)
                 pro = F.softmax(output1,dim=1)
                 ems_cur = torch.max(pro, 1).values
-                #while(1):True
-            if metric == "Ent":
-                output1= model(inputs)                
-                pro = F.softmax(output1,dim=1)
-                log_pro = -torch.log(pro)
-                ent = pro * log_pro
-                ems_cur = ent.sum(dim=-1) 
             if metric == "Ran":
                 ems_cur =  torch.rand(len(inputs), out=None).cuda() 
             if metric == "ISDAL":
@@ -119,7 +112,7 @@ if __name__ == '__main__':
     )
     test_loader = DataLoader(test_dataset, batch_size=cfg.TRAIN.BATCH)
 
-    Performance = np.zeros((10, 10))
+    Performance = np.zeros((3, 10))
     for trial in range(cfg.ACTIVE_LEARNING.TRIALS):
         # Initialize a labeled dataset by randomly sampling K=ADDENDUM=1,000 data points
         # from the entire dataset.
@@ -202,7 +195,7 @@ if __name__ == '__main__':
             # update dataloaders
             # Measure emc of each data points in the subset
             print("Selecting data")
-            EMC_Array = get_ems(model, unlabeled_loader,criterion_isda,metric=args.metric) #Ent, Maxp, ISDAL, Ran
+            EMC_Array = get_ems(model, unlabeled_loader,criterion_isda,metric=args.metric) #Maxp, ISDAL, Ran
 
             # Index in ascending order
             arg = np.argsort(EMC_Array)
@@ -235,10 +228,3 @@ if __name__ == '__main__':
     my_logger.info("Trail 1: {}".format(Performance[0]))
     my_logger.info("Trail 2: {}".format(Performance[1]))
     my_logger.info("Trail 3: {}".format(Performance[2]))
-    my_logger.info("Trail 4: {}".format(Performance[3]))
-    my_logger.info("Trail 5: {}".format(Performance[4]))
-    my_logger.info("Trail 6: {}".format(Performance[5]))
-    my_logger.info("Trail 7: {}".format(Performance[6]))
-    my_logger.info("Trail 8: {}".format(Performance[7]))    
-    my_logger.info("Trail 9: {}".format(Performance[8]))
-    my_logger.info("Trail 10: {}".format(Performance[9])) 
