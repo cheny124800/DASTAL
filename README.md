@@ -1,5 +1,4 @@
 ## DASTAL
-We propose a diversity-aware semantic transformation active learning, or DAST-AL framework, that looks ahead the effect of ISDA in the process of acquisition. Specifically, DAST-AL exploits expected partial model change maximization (EPMCM) to consider selected samples' potential contribution of the diversity to the labeled set by leveraging the semantic transformation within ISDA when selecting the unlabeled samples.
 
 
 ## Getting started
